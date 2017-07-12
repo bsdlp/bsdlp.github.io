@@ -8,7 +8,7 @@
   </head>
 
   <body class="near-black bg-near-white pl2 pl6-ns">
-    <header class="pv3 pv4-ns">
+    <header class="pv3-ns">
       <h1 class="f1 f1-ns fw6 helvetica">Jon Chen</h1>
       <ul class="list pl0 f4 fw2 lh-copy">
         <li>San Francisco, CA</li>
@@ -18,11 +18,11 @@
       </ul>
     </header>
 
-    <div id="twitch" class="mw7 pb4">
-      <div class="pl0 lh-copy">
-        <h3 class="f-subheader measure mb0 normal">January 2015 - Current</h4>
-        <h2 class="f-header measure mv0 normal">Software Engineer at <a class="near-black bg-animate hover-bg-black hover-near-white" href="https://twitch.tv">Twitch</a></h3>
-        <ul class="lh-copy">
+    <div class="mw7 pb4">
+      <div class="list pl0 lh-copy">
+        <h4 class="f4 normal">January 2015 - Current</h4>
+        <h3 class="f2 normal measure">Software Engineer at <a class="near-black bg-animate hover-bg-black hover-near-white" href="https://twitch.tv">Twitch</a></h3>
+        <ul class="lh-copy f3">
           <li>Tech lead on service to service auth solution</li>
           <li>Tech lead on employee user auth service</li>
           <li>Major contributor to secrets management system</li>
@@ -30,16 +30,16 @@
       </div>
     </div>
 
-    <div id="linode" class="mw7 pb4">
-      <div class="pl0 lh-copy">
-        <h3 class="f-subheader measure mb0 normal">August 2014 - January 2015</h4>
-        <h2 class="f-header measure mv0 normal">Junior Developer at <a class="near-black bg-animate hover-bg-black hover-near-white" href="https://linode.com">Linode</a></h3>
-        <ul class="lh-copy">
+    <div class="mw7 pb4">
+      <ul class="list pl0 lh-copy">
+        <li class="f4">August 2014 - January 2015</li>
+        <li class="f2">Junior Developer at <a class="near-black bg-animate hover-bg-black hover-near-white" href="https://linode.com">Linode</a></li>
+        <ul class="lh-copy f3">
           <li>Designed and implemented auto-balancing backups system for customer data</li>
           <li>Managed fleet of Xen hypervisors hosting customer VMs</li>
           <li>Introduced configuration management (SaltStack) to internal infrastructure</li>
         </ul>
-      </div>
+      </ul>
     </div>
 
   </body>
