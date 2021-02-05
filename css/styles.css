@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .who {
+        @apply text-5xl font-bold mb-5;
+    }
+
+    .where {
+        @apply text-xl;
+    }
+
+    .when {
+        @apply uppercase;
+    }
+
+    .what {
+        @apply list-none md:list-disc list-inside;
+    }
+
+    a {
+        @apply underline hover:transition-colors hover:duration-100 dark:hover:bg-gray-100 hover:bg-gray-800 dark:hover:text-gray-800 hover:text-gray-300;
+    }
+
+    ul {
+        @apply m-5;
+    }
+
+    dt {
+        @apply text-2xl;
+    }
+
+    .job {
+        @apply mt-10 mb-12;
+    }
+
+    .container {
+        @apply ml-20 mt-16;
+    }
+
+    body {
+        @apply bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-300;
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@tailwindcss/typography": "^0.4.0",
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.4",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.2"
+  },
+  "scripts": {
+    "postcss": "postcss ./css/styles.css -o ./css/compiled.css",
+    "build": "tailwind build ./css/styles.css -o ./public/style.css && cp index.html public/ && cp favicon.ico public/"
+  }
+}

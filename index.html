@@ -3,53 +3,60 @@
 
   <head>
     <title>Jon Chen</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="referrer" content="no-referrer">
-    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
+    <link rel="stylesheet" href="./css/compiled.css"/>
   </head>
 
-  <body class="near-black bg-near-white pl2 pl6-ns helvetica">
-    <header class="pv3 pv4-ns">
-      <h1 class="f1 f1-ns fw6">Jon Chen</h1>
-      <ul class="list pl0 f4 lh-copy">
-        <li>San Francisco, CA</li>
-        <li><a class="near-black bg-animate hover-bg-black hover-near-white" href="https://github.com/bsdlp">github.com/bsdlp</a></li>
-        <li><a class="near-black bg-animate hover-bg-black hover-near-white" href="mailto:sjchen@sjchen.com">sjchen@sjchen.com</a></li>
-      </ul>
-    </header>
+  <body>
+    <div class="container">
+      <div id="intro">
+        <dl>
+          <dt class="who">Jon Chen</dt>
+          <dd class="where">San Francisco, CA</dd>
+          <dd class="where"><a href="https://github.com/bsdlp">github.com/bsdlp</a></dd>
+          <dd class="where"><a href="mailto:sjchen@sjchen.com">sjchen@sjchen.com</a></dd>
+        </dl>
+      </div>
 
-    <div id="twitch-identity" class="mw7 pb4">
-      <div class="pl0 lh-copy">
-        <h2 class="f-header measure mv0 normal">Software Engineer (Identity) at <a class="near-black bg-animate hover-bg-black hover-near-white" target="_blank" href="https://twitch.tv">Twitch</a></h3>
-        <h4 class="f-subheader measure mv0 normal ttu">January 2020 - Current</h4>
-        <ul class="lh-copy">
-          <li>Service owner, Twitch Sessions service</li>
-        </ul>
+      <div id="twitch-identity" class="job">
+        <dl>
+          <dt>Software Engineer (Identity) at <a target="_blank" href="https://twitch.tv">Twitch</a></dt>
+          <dd class="when">January 2020 - Current</dd>
+          <dd>
+            <ul class="what">
+              <li>Service owner, Twitch Sessions service</li>
+            </ul>
+          </dd>
+        </dl>
+      </div>
+
+      <div id="twitch-security" class="job">
+        <dl>
+          <dt>Software Engineer (Security) at <a target="_blank" href="https://twitch.tv">Twitch</a></dt>
+          <dd class="when">January 2015 - January 2020</dd>
+          <dd>
+            <ul class="what">
+              <li>Tech lead on service to service auth product</li>
+              <li>Tech lead on employee user auth service</li>
+              <li>Major contributor to secrets management system</li>
+            </ul>
+          </dd>
+        </dl>
+      </div>
+
+      <div id="linode" class="job">
+        <dl>
+          <dt>Junior Developer at <a target="_blank" href="https://linode.com">Linode</a></dt>
+          <dd class="when">August 2014 - January 2015</dd>
+          <dd>
+            <ul class="what">
+              <li>Designed and implemented auto-balancing backups system for customer data</li>
+              <li>Managed fleet of Xen hypervisors hosting customer VMs</li>
+            </ul>
+          </dd>
+        </dl>
       </div>
     </div>
-
-    <div id="twitch-security" class="mw7 pb4">
-      <div class="pl0 lh-copy">
-        <h2 class="f-header measure mv0 normal">Software Engineer (Security) at <a class="near-black bg-animate hover-bg-black hover-near-white" target="_blank" href="https://twitch.tv">Twitch</a></h3>
-        <h4 class="f-subheader measure mv0 normal ttu">January 2015 - January 2020</h4>
-        <ul class="lh-copy">
-          <li>Tech lead on service to service auth product</li>
-          <li>Tech lead on employee user auth service</li>
-          <li>Major contributor to secrets management system</li>
-        </ul>
-      </div>
-    </div>
-
-    <div id="linode" class="mw7 pb4">
-      <div class="pl0 lh-copy">
-        <h2 class="f-header measure mv0 normal">Junior Developer at <a class="near-black bg-animate hover-bg-black hover-near-white" target="_blank" href="https://linode.com">Linode</a></h3>
-        <h4 class="f-subheader measure mv0 normal ttu">August 2014 - January 2015</h4>
-        <ul class="lh-copy">
-          <li>Designed and implemented auto-balancing backups system for customer data</li>
-          <li>Managed fleet of Xen hypervisors hosting customer VMs</li>
-        </ul>
-      </div>
-    </div>
-
   </body>
 </html>
