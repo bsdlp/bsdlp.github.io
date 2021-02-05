@@ -118,4 +118,4 @@ dist
 .pnp.*
 
 /public/
-./compiled.css
+/compiled.css

@@ -2,12 +2,13 @@
   "dependencies": {
     "@tailwindcss/typography": "^0.4.0",
     "autoprefixer": "^10.2.4",
+    "cssnano": "^4.1.10",
     "postcss": "^8.2.4",
     "postcss-cli": "^8.3.1",
     "tailwindcss": "^2.0.2"
   },
   "scripts": {
-    "postcss": "postcss ./styles.css -o ./compiled.css",
-    "build": "tailwind build ./styles.css -o ./public/compiled.css && cp index.html public/ && cp favicon.ico public/"
+    "build-css": "postcss ./styles.css -o ./compiled.css",
+    "publish": "cp index.html public/ && cp favicon.ico public/ && cp ./compiled.css public/"
   }
 }
