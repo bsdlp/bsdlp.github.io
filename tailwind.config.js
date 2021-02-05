@@ -1,6 +1,11 @@
 module.exports = {
   purge: {
     content: ['./index.html'],
+    options: {
+      keyframes: true,
+    },
+    mode: 'all',
+    preserveHtmlElements: false,
     enabled: true,
   },
   darkMode: 'media', // or 'media' or 'class'
