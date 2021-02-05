@@ -7,7 +7,7 @@
     "tailwindcss": "^2.0.2"
   },
   "scripts": {
-    "postcss": "postcss ./css/styles.css -o ./css/compiled.css",
-    "build": "tailwind build ./css/styles.css -o ./public/css/compiled.css && cp index.html public/ && cp favicon.ico public/"
+    "postcss": "postcss ./styles.css -o ./compiled.css",
+    "build": "tailwind build ./styles.css -o ./public/compiled.css && cp index.html public/ && cp favicon.ico public/"
   }
 }
