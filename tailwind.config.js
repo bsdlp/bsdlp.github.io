@@ -8,10 +8,10 @@ module.exports = {
     preserveHtmlElements: false,
     enabled: true,
   },
-  darkMode: 'media', // or 'media' or 'class'
+  darkMode: 'media',
   theme: {
     fontFamily: {
-      sans: ['Helvetica', 'sans-serif'],
+      sans: ['Helvetica Neue', 'Helvetica', 'sans-serif'],
     },
     listStyleType: {
       none: 'none',
