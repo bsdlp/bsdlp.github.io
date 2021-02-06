@@ -28,7 +28,7 @@
     }
 
     dt {
-        @apply text-2xl;
+        @apply text-xl md:text-2xl;
     }
 
     .job {
@@ -36,7 +36,7 @@
     }
 
     .container {
-        @apply ml-20 mt-16;
+        @apply ml-8 md:ml-20 mt-16;
     }
 
     body {
