@@ -3,7 +3,7 @@
 |  |  |
 |--|--|
 | Location | Los Angeles, CA |
-| Github | github.com/bsdlp |
+| Github | [github.com/bsdlp](https://github.com/bsdlp) |
 | Email | sjchen@sjchen.com |
 
 ## Unpaid work
