@@ -1,8 +1,10 @@
 # Jon Chen
 
-Located in: Los Angeles, CA
-Github: github.com/bsdlp
-Email: sjchen@sjchen.com
+|  |  |
+|--|--|
+| Location | Los Angeles, CA |
+| Github | github.com/bsdlp |
+| Email | sjchen@sjchen.com |
 
 ## Unpaid work
 
