@@ -22,6 +22,7 @@ My job is at Twitch is currently mostly doing these things:
 * on-call rotation for the services that power people's logged in experience. if users can't log in, they can't chat or do a lot of the things that make twitch money, so when things break there's a lot of pressure to identify root cause and implement mitigations quickly (i.e. being on the hot seat in a 50 person google meet with directors/managers/ICs across the company at 3am on new years eve).
 * improving the operational experience of running our services (metrics design, dashboard design, benchmarking, documentation, refactoring code, and infrastructure design)
 * handling requests from customer support, trust & safety, security incident response, legal, and other engineering teams that have questions / want to launch new features.
+* everything I write is in Golang, occasionally React. I use CDK / Cloudformation for infrastructure management, rarely Terraform.
 
 ### Software Engineer (Auth) at Twitch
 
