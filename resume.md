@@ -6,7 +6,7 @@
 | Github | [github.com/bsdlp](https://github.com/bsdlp) |
 | Email | sjchen@sjchen.com |
 
-## Unpaid work
+## Hobby
 
 Wrote a [discord bot](https://github.com/tonkat-su/bot) with a bunch of cool features for my private minecraft server my friends play on.
 
@@ -14,7 +14,7 @@ Wrote a [discord bot](https://github.com/tonkat-su/bot) with a bunch of cool fea
 * automates adding people to the server allowlist via discord slash commands (i wrote the [go client library feature for this!](https://github.com/bwmarrin/discordgo/pull/855))
 * "who's online" with everyone's minecraft face using discord emotes
 
-## Paid work
+## Job
 
 My job is at Twitch is currently mostly doing these things:
 
